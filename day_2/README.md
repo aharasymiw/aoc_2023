@@ -85,5 +85,5 @@ For each game, find the minimum set of cubes that must have been present. What i
 <details>
   <summary>Click to reveal</summary>
   
-`________`
+`77607`
 </details>

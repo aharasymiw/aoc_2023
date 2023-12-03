@@ -62,10 +62,10 @@ function validateGame(total, tests, gameNumber) {
         if (
             // Decide if it's bad by testing to see if it's an invalid red trial
             rejectBasedOnColorPull(test, ' red', maxRed) ||
-            // Or an invalid blue trial
-            rejectBasedOnColorPull(test, ' blue', maxBlue) ||
             // Or an invalid green trial
-            rejectBasedOnColorPull(test, ' green', maxGreen)
+            rejectBasedOnColorPull(test, ' green', maxGreen) ||
+            // Or an invalid blue trial
+            rejectBasedOnColorPull(test, ' blue', maxBlue)
         ) {
             // If the trial is bad, the game is not valid
             isValidGame = false;
