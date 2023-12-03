@@ -81,6 +81,13 @@ For each game, find the minimum set of cubes that must have been present. What i
 
 ### The plan
 
+1. Prepare the data in the same way as part 1.
+2. For each game, find the power
+  - start each color's min value at 0
+  - check each trial, and compare it's number to the min of the matching color
+  - if it's greater, update the min
+  - once we have the three mins, calculate the updated total with the game's power added in
+
 ### The answer
 <details>
   <summary>Click to reveal</summary>
